@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<!-- Launch Turtlesim Simulation -->
+	<node pkg="turtlesim" name="turtlesim" type="turtlesim_node" />
+	<!-- Custom nodes -->
+	<node pkg="hw1_turtlesim" name="pub_turtlesim" type="pub_turtlesim.py" output="screen" />
+</launch>
