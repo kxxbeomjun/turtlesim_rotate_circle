@@ -2,7 +2,7 @@
 ROS melodic turtlesim rotating circle
 
 ```c
-$ git clone https://github.com/kxxbeomjun/turtlesim_rotate_circle
+$ git clone https://github.com/kxxbeomjun/turtlesim_rotate_circle.git
 
 $ cd ~catkin_ws && catkin_make
 
